@@ -1,3 +1,1020 @@
 {
-  "forecasts": []
+  "forecasts": [
+    {
+      "generated_at": "2026-07-26T22:00:00Z",
+      "model": "hrrrConus",
+      "location": {
+        "lat": 38.52,
+        "lon": -84.43,
+        "name": "Start Skydiving, Middletown OH"
+      },
+      "surface": [
+        {
+          "time_utc": "2026-07-26 22:00 UTC",
+          "time_local": "6:00pm",
+          "datetime_local_iso": "2026-07-26T18:00:00-04:00",
+          "temp_f": 94.6,
+          "dewpoint_f": 64.5,
+          "wind_kts": 3.1,
+          "wind_dir": "SSE",
+          "gust_kts": 10.2,
+          "gust_spread_kts": 7.1,
+          "lclouds_pct": 92,
+          "mclouds_pct": 0,
+          "hclouds_pct": 100,
+          "pressure_inhg": 29.74,
+          "precip": 0.0,
+          "cape": 168,
+          "rh_pct": 75
+        },
+        {
+          "time_utc": "2026-07-27 01:00 UTC",
+          "time_local": "9:00pm",
+          "datetime_local_iso": "2026-07-26T21:00:00-04:00",
+          "temp_f": 76.2,
+          "dewpoint_f": 69.0,
+          "wind_kts": 6.8,
+          "wind_dir": "SW",
+          "gust_kts": 9.4,
+          "gust_spread_kts": 2.6,
+          "lclouds_pct": 16,
+          "mclouds_pct": 78,
+          "hclouds_pct": 61,
+          "pressure_inhg": 29.87,
+          "precip": 0.0,
+          "cape": 1267,
+          "rh_pct": 29
+        },
+        {
+          "time_utc": "2026-07-27 04:00 UTC",
+          "time_local": "12:00am",
+          "datetime_local_iso": "2026-07-27T00:00:00-04:00",
+          "temp_f": 92.3,
+          "dewpoint_f": 65.0,
+          "wind_kts": 12.6,
+          "wind_dir": "N",
+          "gust_kts": 9.3,
+          "gust_spread_kts": -3.3,
+          "lclouds_pct": 0,
+          "mclouds_pct": 0,
+          "hclouds_pct": 100,
+          "pressure_inhg": 29.67,
+          "precip": 0.0,
+          "cape": 478,
+          "rh_pct": 54
+        },
+        {
+          "time_utc": "2026-07-27 07:00 UTC",
+          "time_local": "3:00am",
+          "datetime_local_iso": "2026-07-27T03:00:00-04:00",
+          "temp_f": 80.3,
+          "dewpoint_f": 66.1,
+          "wind_kts": 3.6,
+          "wind_dir": "WSW",
+          "gust_kts": 15.7,
+          "gust_spread_kts": 12.1,
+          "lclouds_pct": 61,
+          "mclouds_pct": 0,
+          "hclouds_pct": 0,
+          "pressure_inhg": 29.75,
+          "precip": 0.0,
+          "cape": 506,
+          "rh_pct": 95
+        },
+        {
+          "time_utc": "2026-07-27 10:00 UTC",
+          "time_local": "6:00am",
+          "datetime_local_iso": "2026-07-27T06:00:00-04:00",
+          "temp_f": 72.7,
+          "dewpoint_f": 67.1,
+          "wind_kts": 7.3,
+          "wind_dir": "SSW",
+          "gust_kts": 24.1,
+          "gust_spread_kts": 16.8,
+          "lclouds_pct": 4,
+          "mclouds_pct": 100,
+          "hclouds_pct": 99,
+          "pressure_inhg": 29.89,
+          "precip": 0.0,
+          "cape": 180,
+          "rh_pct": 63
+        },
+        {
+          "time_utc": "2026-07-27 13:00 UTC",
+          "time_local": "9:00am",
+          "datetime_local_iso": "2026-07-27T09:00:00-04:00",
+          "temp_f": 80.1,
+          "dewpoint_f": 67.8,
+          "wind_kts": 2.3,
+          "wind_dir": "WNW",
+          "gust_kts": 5.0,
+          "gust_spread_kts": 2.7,
+          "lclouds_pct": 5,
+          "mclouds_pct": 2,
+          "hclouds_pct": 93,
+          "pressure_inhg": 29.7,
+          "precip": 0.0,
+          "cape": 216,
+          "rh_pct": 85
+        },
+        {
+          "time_utc": "2026-07-27 16:00 UTC",
+          "time_local": "12:00pm",
+          "datetime_local_iso": "2026-07-27T12:00:00-04:00",
+          "temp_f": 76.3,
+          "dewpoint_f": 63.7,
+          "wind_kts": 8.8,
+          "wind_dir": "W",
+          "gust_kts": 8.3,
+          "gust_spread_kts": -0.5,
+          "lclouds_pct": 34,
+          "mclouds_pct": 0,
+          "hclouds_pct": 0,
+          "pressure_inhg": 29.87,
+          "precip": 0.6968,
+          "cape": 126,
+          "rh_pct": 63
+        },
+        {
+          "time_utc": "2026-07-27 19:00 UTC",
+          "time_local": "3:00pm",
+          "datetime_local_iso": "2026-07-27T15:00:00-04:00",
+          "temp_f": 72.2,
+          "dewpoint_f": 72.3,
+          "wind_kts": 6.1,
+          "wind_dir": "SSE",
+          "gust_kts": 6.2,
+          "gust_spread_kts": 0.1,
+          "lclouds_pct": 0,
+          "mclouds_pct": 0,
+          "hclouds_pct": 100,
+          "pressure_inhg": 29.78,
+          "precip": 0.0,
+          "cape": 0,
+          "rh_pct": 54
+        },
+        {
+          "time_utc": "2026-07-27 22:00 UTC",
+          "time_local": "6:00pm",
+          "datetime_local_iso": "2026-07-27T18:00:00-04:00",
+          "temp_f": 83.3,
+          "dewpoint_f": 65.1,
+          "wind_kts": 4.3,
+          "wind_dir": "ESE",
+          "gust_kts": 7.2,
+          "gust_spread_kts": 2.9,
+          "lclouds_pct": 0,
+          "mclouds_pct": 0,
+          "hclouds_pct": 99,
+          "pressure_inhg": 29.88,
+          "precip": 1.6599,
+          "cape": 41,
+          "rh_pct": 79
+        },
+        {
+          "time_utc": "2026-07-28 01:00 UTC",
+          "time_local": "9:00pm",
+          "datetime_local_iso": "2026-07-27T21:00:00-04:00",
+          "temp_f": 73.5,
+          "dewpoint_f": 67.8,
+          "wind_kts": 14.1,
+          "wind_dir": "WSW",
+          "gust_kts": 4.5,
+          "gust_spread_kts": -9.6,
+          "lclouds_pct": 77,
+          "mclouds_pct": 18,
+          "hclouds_pct": 30,
+          "pressure_inhg": 29.91,
+          "precip": 0.0,
+          "cape": 1387,
+          "rh_pct": 89
+        },
+        {
+          "time_utc": "2026-07-28 04:00 UTC",
+          "time_local": "12:00am",
+          "datetime_local_iso": "2026-07-28T00:00:00-04:00",
+          "temp_f": 69.9,
+          "dewpoint_f": 70.7,
+          "wind_kts": 2.9,
+          "wind_dir": "SE",
+          "gust_kts": 24.7,
+          "gust_spread_kts": 21.8,
+          "lclouds_pct": 6,
+          "mclouds_pct": 0,
+          "hclouds_pct": 31,
+          "pressure_inhg": 29.86,
+          "precip": 0.0,
+          "cape": 899,
+          "rh_pct": 88
+        },
+        {
+          "time_utc": "2026-07-28 07:00 UTC",
+          "time_local": "3:00am",
+          "datetime_local_iso": "2026-07-28T03:00:00-04:00",
+          "temp_f": 87.6,
+          "dewpoint_f": 50.7,
+          "wind_kts": 3.1,
+          "wind_dir": "WNW",
+          "gust_kts": 10.1,
+          "gust_spread_kts": 7.0,
+          "lclouds_pct": 61,
+          "mclouds_pct": 99,
+          "hclouds_pct": 100,
+          "pressure_inhg": 29.79,
+          "precip": 0.0,
+          "cape": 1166,
+          "rh_pct": 45
+        },
+        {
+          "time_utc": "2026-07-28 10:00 UTC",
+          "time_local": "6:00am",
+          "datetime_local_iso": "2026-07-28T06:00:00-04:00",
+          "temp_f": 86.3,
+          "dewpoint_f": 69.2,
+          "wind_kts": 6.3,
+          "wind_dir": "SSE",
+          "gust_kts": 18.0,
+          "gust_spread_kts": 11.7,
+          "lclouds_pct": 1,
+          "mclouds_pct": 0,
+          "hclouds_pct": 20,
+          "pressure_inhg": 29.67,
+          "precip": 0.0,
+          "cape": 3079,
+          "rh_pct": 75
+        },
+        {
+          "time_utc": "2026-07-28 13:00 UTC",
+          "time_local": "9:00am",
+          "datetime_local_iso": "2026-07-28T09:00:00-04:00",
+          "temp_f": 67.3,
+          "dewpoint_f": 76.1,
+          "wind_kts": 2.6,
+          "wind_dir": "WSW",
+          "gust_kts": 9.0,
+          "gust_spread_kts": 6.4,
+          "lclouds_pct": 98,
+          "mclouds_pct": 0,
+          "hclouds_pct": 56,
+          "pressure_inhg": 29.73,
+          "precip": 0.0005,
+          "cape": 479,
+          "rh_pct": 37
+        },
+        {
+          "time_utc": "2026-07-28 16:00 UTC",
+          "time_local": "12:00pm",
+          "datetime_local_iso": "2026-07-28T12:00:00-04:00",
+          "temp_f": 85.3,
+          "dewpoint_f": 66.6,
+          "wind_kts": 4.9,
+          "wind_dir": "NE",
+          "gust_kts": 3.3,
+          "gust_spread_kts": -1.6,
+          "lclouds_pct": 39,
+          "mclouds_pct": 0,
+          "hclouds_pct": 0,
+          "pressure_inhg": 29.89,
+          "precip": 0.0,
+          "cape": 646,
+          "rh_pct": 88
+        }
+      ],
+      "exit_winds": [
+        {
+          "time_utc": "2026-07-26 22:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 12.5,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 01:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 18.3,
+          "wind_dir": "SSE"
+        },
+        {
+          "time_utc": "2026-07-27 04:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 23.0,
+          "wind_dir": "S"
+        },
+        {
+          "time_utc": "2026-07-27 07:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 28.3,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 10:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 4.4,
+          "wind_dir": "NE"
+        },
+        {
+          "time_utc": "2026-07-27 13:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 8.8,
+          "wind_dir": "SSE"
+        },
+        {
+          "time_utc": "2026-07-27 16:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 13.8,
+          "wind_dir": "SSE"
+        },
+        {
+          "time_utc": "2026-07-27 19:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 11.0,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 22:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 8.2,
+          "wind_dir": "SSW"
+        },
+        {
+          "time_utc": "2026-07-28 01:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 12.0,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-28 04:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 15.2,
+          "wind_dir": "SSE"
+        },
+        {
+          "time_utc": "2026-07-28 07:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 5.2,
+          "wind_dir": "WSW"
+        },
+        {
+          "time_utc": "2026-07-28 10:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 1.5,
+          "wind_dir": "SSW"
+        },
+        {
+          "time_utc": "2026-07-28 13:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 7.6,
+          "wind_dir": "S"
+        },
+        {
+          "time_utc": "2026-07-28 16:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 3.4,
+          "wind_dir": "S"
+        },
+        {
+          "time_utc": "2026-07-26 22:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 24.5,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 01:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 29.6,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 04:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 20.7,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 07:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 19.9,
+          "wind_dir": "ESE"
+        },
+        {
+          "time_utc": "2026-07-27 10:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 27.8,
+          "wind_dir": "ESE"
+        },
+        {
+          "time_utc": "2026-07-27 13:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 33.2,
+          "wind_dir": "ESE"
+        },
+        {
+          "time_utc": "2026-07-27 16:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 42.0,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 19:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 11.0,
+          "wind_dir": "E"
+        },
+        {
+          "time_utc": "2026-07-27 22:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 16.7,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-28 01:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 36.9,
+          "wind_dir": "SSE"
+        },
+        {
+          "time_utc": "2026-07-28 04:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 25.8,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-28 07:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 20.9,
+          "wind_dir": "ESE"
+        },
+        {
+          "time_utc": "2026-07-28 10:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 30.3,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-28 13:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 28.3,
+          "wind_dir": "ESE"
+        },
+        {
+          "time_utc": "2026-07-28 16:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 12.7,
+          "wind_dir": "E"
+        }
+      ],
+      "verdict": {
+        "rating": "GO",
+        "best_window": "3:00pm",
+        "reasons": [
+          "1 hours rated GO",
+          "2 hours rated CAUTION",
+          "6 hours rated NO JUMP",
+          "Low clouds 92% \u2014 poor spot accuracy",
+          "Gust spread 16.8kt > 15kt",
+          "Mid clouds 100% \u2014 blind exit/deployment",
+          "Exit wind 27.8kt at 10k ft",
+          "Precipitation: 0.697\"",
+          "Exit wind 42.0kt at 10k ft > limit"
+        ]
+      }
+    },
+    {
+      "generated_at": "2026-07-26T22:00:00Z",
+      "model": "hrrrConus",
+      "location": {
+        "lat": 38.52,
+        "lon": -84.43,
+        "name": "Start Skydiving, Middletown OH"
+      },
+      "surface": [
+        {
+          "time_utc": "2026-07-26 22:00 UTC",
+          "time_local": "6:00pm",
+          "datetime_local_iso": "2026-07-26T18:00:00-04:00",
+          "temp_f": 94.6,
+          "dewpoint_f": 64.5,
+          "wind_kts": 3.1,
+          "wind_dir": "SSE",
+          "gust_kts": 10.2,
+          "gust_spread_kts": 7.1,
+          "lclouds_pct": 92,
+          "mclouds_pct": 0,
+          "hclouds_pct": 100,
+          "pressure_inhg": 29.74,
+          "precip": 0.0,
+          "cape": 168,
+          "rh_pct": 75
+        },
+        {
+          "time_utc": "2026-07-27 01:00 UTC",
+          "time_local": "9:00pm",
+          "datetime_local_iso": "2026-07-26T21:00:00-04:00",
+          "temp_f": 76.2,
+          "dewpoint_f": 69.0,
+          "wind_kts": 6.8,
+          "wind_dir": "SW",
+          "gust_kts": 9.4,
+          "gust_spread_kts": 2.6,
+          "lclouds_pct": 16,
+          "mclouds_pct": 78,
+          "hclouds_pct": 61,
+          "pressure_inhg": 29.87,
+          "precip": 0.0,
+          "cape": 1267,
+          "rh_pct": 29
+        },
+        {
+          "time_utc": "2026-07-27 04:00 UTC",
+          "time_local": "12:00am",
+          "datetime_local_iso": "2026-07-27T00:00:00-04:00",
+          "temp_f": 92.3,
+          "dewpoint_f": 65.0,
+          "wind_kts": 12.6,
+          "wind_dir": "N",
+          "gust_kts": 9.3,
+          "gust_spread_kts": 0,
+          "lclouds_pct": 0,
+          "mclouds_pct": 0,
+          "hclouds_pct": 100,
+          "pressure_inhg": 29.67,
+          "precip": 0.0,
+          "cape": 478,
+          "rh_pct": 54
+        },
+        {
+          "time_utc": "2026-07-27 07:00 UTC",
+          "time_local": "3:00am",
+          "datetime_local_iso": "2026-07-27T03:00:00-04:00",
+          "temp_f": 80.3,
+          "dewpoint_f": 66.1,
+          "wind_kts": 3.6,
+          "wind_dir": "WSW",
+          "gust_kts": 15.7,
+          "gust_spread_kts": 12.1,
+          "lclouds_pct": 61,
+          "mclouds_pct": 0,
+          "hclouds_pct": 0,
+          "pressure_inhg": 29.75,
+          "precip": 0.0,
+          "cape": 506,
+          "rh_pct": 95
+        },
+        {
+          "time_utc": "2026-07-27 10:00 UTC",
+          "time_local": "6:00am",
+          "datetime_local_iso": "2026-07-27T06:00:00-04:00",
+          "temp_f": 72.7,
+          "dewpoint_f": 67.1,
+          "wind_kts": 7.3,
+          "wind_dir": "SSW",
+          "gust_kts": 24.1,
+          "gust_spread_kts": 16.8,
+          "lclouds_pct": 4,
+          "mclouds_pct": 100,
+          "hclouds_pct": 99,
+          "pressure_inhg": 29.89,
+          "precip": 0.0,
+          "cape": 180,
+          "rh_pct": 63
+        },
+        {
+          "time_utc": "2026-07-27 13:00 UTC",
+          "time_local": "9:00am",
+          "datetime_local_iso": "2026-07-27T09:00:00-04:00",
+          "temp_f": 80.1,
+          "dewpoint_f": 67.8,
+          "wind_kts": 2.3,
+          "wind_dir": "WNW",
+          "gust_kts": 5.0,
+          "gust_spread_kts": 2.7,
+          "lclouds_pct": 5,
+          "mclouds_pct": 2,
+          "hclouds_pct": 93,
+          "pressure_inhg": 29.7,
+          "precip": 0.0,
+          "cape": 216,
+          "rh_pct": 85
+        },
+        {
+          "time_utc": "2026-07-27 16:00 UTC",
+          "time_local": "12:00pm",
+          "datetime_local_iso": "2026-07-27T12:00:00-04:00",
+          "temp_f": 76.3,
+          "dewpoint_f": 63.7,
+          "wind_kts": 8.8,
+          "wind_dir": "W",
+          "gust_kts": 8.3,
+          "gust_spread_kts": 0,
+          "lclouds_pct": 34,
+          "mclouds_pct": 0,
+          "hclouds_pct": 0,
+          "pressure_inhg": 29.87,
+          "precip": 0.6968,
+          "cape": 126,
+          "rh_pct": 63
+        },
+        {
+          "time_utc": "2026-07-27 19:00 UTC",
+          "time_local": "3:00pm",
+          "datetime_local_iso": "2026-07-27T15:00:00-04:00",
+          "temp_f": 72.2,
+          "dewpoint_f": 72.3,
+          "wind_kts": 6.1,
+          "wind_dir": "SSE",
+          "gust_kts": 6.2,
+          "gust_spread_kts": 0.1,
+          "lclouds_pct": 0,
+          "mclouds_pct": 0,
+          "hclouds_pct": 100,
+          "pressure_inhg": 29.78,
+          "precip": 0.0,
+          "cape": 0,
+          "rh_pct": 54
+        },
+        {
+          "time_utc": "2026-07-27 22:00 UTC",
+          "time_local": "6:00pm",
+          "datetime_local_iso": "2026-07-27T18:00:00-04:00",
+          "temp_f": 83.3,
+          "dewpoint_f": 65.1,
+          "wind_kts": 4.3,
+          "wind_dir": "ESE",
+          "gust_kts": 7.2,
+          "gust_spread_kts": 2.9,
+          "lclouds_pct": 0,
+          "mclouds_pct": 0,
+          "hclouds_pct": 99,
+          "pressure_inhg": 29.88,
+          "precip": 1.6599,
+          "cape": 41,
+          "rh_pct": 79
+        },
+        {
+          "time_utc": "2026-07-28 01:00 UTC",
+          "time_local": "9:00pm",
+          "datetime_local_iso": "2026-07-27T21:00:00-04:00",
+          "temp_f": 73.5,
+          "dewpoint_f": 67.8,
+          "wind_kts": 14.1,
+          "wind_dir": "WSW",
+          "gust_kts": 4.5,
+          "gust_spread_kts": 0,
+          "lclouds_pct": 77,
+          "mclouds_pct": 18,
+          "hclouds_pct": 30,
+          "pressure_inhg": 29.91,
+          "precip": 0.0,
+          "cape": 1387,
+          "rh_pct": 89
+        },
+        {
+          "time_utc": "2026-07-28 04:00 UTC",
+          "time_local": "12:00am",
+          "datetime_local_iso": "2026-07-28T00:00:00-04:00",
+          "temp_f": 69.9,
+          "dewpoint_f": 70.7,
+          "wind_kts": 2.9,
+          "wind_dir": "SE",
+          "gust_kts": 24.7,
+          "gust_spread_kts": 21.8,
+          "lclouds_pct": 6,
+          "mclouds_pct": 0,
+          "hclouds_pct": 31,
+          "pressure_inhg": 29.86,
+          "precip": 0.0,
+          "cape": 899,
+          "rh_pct": 88
+        },
+        {
+          "time_utc": "2026-07-28 07:00 UTC",
+          "time_local": "3:00am",
+          "datetime_local_iso": "2026-07-28T03:00:00-04:00",
+          "temp_f": 87.6,
+          "dewpoint_f": 50.7,
+          "wind_kts": 3.1,
+          "wind_dir": "WNW",
+          "gust_kts": 10.1,
+          "gust_spread_kts": 7.0,
+          "lclouds_pct": 61,
+          "mclouds_pct": 99,
+          "hclouds_pct": 100,
+          "pressure_inhg": 29.79,
+          "precip": 0.0,
+          "cape": 1166,
+          "rh_pct": 45
+        },
+        {
+          "time_utc": "2026-07-28 10:00 UTC",
+          "time_local": "6:00am",
+          "datetime_local_iso": "2026-07-28T06:00:00-04:00",
+          "temp_f": 86.3,
+          "dewpoint_f": 69.2,
+          "wind_kts": 6.3,
+          "wind_dir": "SSE",
+          "gust_kts": 18.0,
+          "gust_spread_kts": 11.7,
+          "lclouds_pct": 1,
+          "mclouds_pct": 0,
+          "hclouds_pct": 20,
+          "pressure_inhg": 29.67,
+          "precip": 0.0,
+          "cape": 3079,
+          "rh_pct": 75
+        },
+        {
+          "time_utc": "2026-07-28 13:00 UTC",
+          "time_local": "9:00am",
+          "datetime_local_iso": "2026-07-28T09:00:00-04:00",
+          "temp_f": 67.3,
+          "dewpoint_f": 76.1,
+          "wind_kts": 2.6,
+          "wind_dir": "WSW",
+          "gust_kts": 9.0,
+          "gust_spread_kts": 6.4,
+          "lclouds_pct": 98,
+          "mclouds_pct": 0,
+          "hclouds_pct": 56,
+          "pressure_inhg": 29.73,
+          "precip": 0.0005,
+          "cape": 479,
+          "rh_pct": 37
+        },
+        {
+          "time_utc": "2026-07-28 16:00 UTC",
+          "time_local": "12:00pm",
+          "datetime_local_iso": "2026-07-28T12:00:00-04:00",
+          "temp_f": 85.3,
+          "dewpoint_f": 66.6,
+          "wind_kts": 4.9,
+          "wind_dir": "NE",
+          "gust_kts": 3.3,
+          "gust_spread_kts": 0,
+          "lclouds_pct": 39,
+          "mclouds_pct": 0,
+          "hclouds_pct": 0,
+          "pressure_inhg": 29.89,
+          "precip": 0.0,
+          "cape": 646,
+          "rh_pct": 88
+        }
+      ],
+      "exit_winds": [
+        {
+          "time_utc": "2026-07-26 22:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 12.5,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 01:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 18.3,
+          "wind_dir": "SSE"
+        },
+        {
+          "time_utc": "2026-07-27 04:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 23.0,
+          "wind_dir": "S"
+        },
+        {
+          "time_utc": "2026-07-27 07:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 28.3,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 10:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 4.4,
+          "wind_dir": "NE"
+        },
+        {
+          "time_utc": "2026-07-27 13:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 8.8,
+          "wind_dir": "SSE"
+        },
+        {
+          "time_utc": "2026-07-27 16:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 13.8,
+          "wind_dir": "SSE"
+        },
+        {
+          "time_utc": "2026-07-27 19:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 11.0,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 22:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 8.2,
+          "wind_dir": "SSW"
+        },
+        {
+          "time_utc": "2026-07-28 01:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 12.0,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-28 04:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 15.2,
+          "wind_dir": "SSE"
+        },
+        {
+          "time_utc": "2026-07-28 07:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 5.2,
+          "wind_dir": "WSW"
+        },
+        {
+          "time_utc": "2026-07-28 10:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 1.5,
+          "wind_dir": "SSW"
+        },
+        {
+          "time_utc": "2026-07-28 13:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 7.6,
+          "wind_dir": "S"
+        },
+        {
+          "time_utc": "2026-07-28 16:00 UTC",
+          "pressure_level": "850h",
+          "approx_alt_ft": 5000,
+          "wind_kts": 3.4,
+          "wind_dir": "S"
+        },
+        {
+          "time_utc": "2026-07-26 22:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 24.5,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 01:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 29.6,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 04:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 20.7,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 07:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 19.9,
+          "wind_dir": "ESE"
+        },
+        {
+          "time_utc": "2026-07-27 10:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 27.8,
+          "wind_dir": "ESE"
+        },
+        {
+          "time_utc": "2026-07-27 13:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 33.2,
+          "wind_dir": "ESE"
+        },
+        {
+          "time_utc": "2026-07-27 16:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 42.0,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-27 19:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 11.0,
+          "wind_dir": "E"
+        },
+        {
+          "time_utc": "2026-07-27 22:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 16.7,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-28 01:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 36.9,
+          "wind_dir": "SSE"
+        },
+        {
+          "time_utc": "2026-07-28 04:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 25.8,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-28 07:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 20.9,
+          "wind_dir": "ESE"
+        },
+        {
+          "time_utc": "2026-07-28 10:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 30.3,
+          "wind_dir": "SE"
+        },
+        {
+          "time_utc": "2026-07-28 13:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 28.3,
+          "wind_dir": "ESE"
+        },
+        {
+          "time_utc": "2026-07-28 16:00 UTC",
+          "pressure_level": "700h",
+          "approx_alt_ft": 10000,
+          "wind_kts": 12.7,
+          "wind_dir": "E"
+        }
+      ],
+      "verdict": {
+        "rating": "GO",
+        "best_window": "3:00pm",
+        "reasons": [
+          "1 hour rated GO",
+          "2 hours rated CAUTION",
+          "6 hours rated NO JUMP",
+          "Low clouds 92% \u2014 poor spot accuracy",
+          "Gust spread 16.8kt > 15kt",
+          "Mid clouds 100% \u2014 blind exit/deployment",
+          "Exit wind 27.8kt at 10k ft",
+          "Precipitation: 0.697\"",
+          "Exit wind 42.0kt at 10k ft > limit"
+        ]
+      }
+    }
+  ]
 }
