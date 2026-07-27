@@ -137,6 +137,74 @@
           "exit_winds_count": 160
         }
       ]
+    },
+    {
+      "generated_at": "2026-07-27T11:57:23.462006+00:00",
+      "location": {
+        "lat": 38.52,
+        "lon": -84.43,
+        "name": "Start Skydiving, Middletown OH"
+      },
+      "models": [
+        {
+          "model_name": "hrrrConus",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "6:00pm",
+            "reasons": [
+              "1 hour rated GO",
+              "3 hours rated CAUTION",
+              "5 hours rated NO JUMP",
+              "Gust spread 12.0kt",
+              "CAPE 635",
+              "Exit wind 32.5kt",
+              "Mid clouds 80%"
+            ]
+          },
+          "surface_count": 14,
+          "exit_winds_count": 28
+        },
+        {
+          "model_name": "icon",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "11:00am-2:00pm",
+            "reasons": [
+              "3 hours rated GO",
+              "13 hours rated CAUTION",
+              "20 hours rated NO JUMP",
+              "Mid clouds 88% \u2014 blind exit",
+              "Precip 0.051\"",
+              "Low clouds 61%",
+              "CAPE 1821 \u2014 severe",
+              "Exit wind 28.7kt",
+              "Gust spread 12.0kt"
+            ]
+          },
+          "surface_count": 58,
+          "exit_winds_count": 116
+        },
+        {
+          "model_name": "gfs",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "11:00am-8:00pm",
+            "reasons": [
+              "17 hours rated GO",
+              "4 hours rated CAUTION",
+              "29 hours rated NO JUMP",
+              "Precip 0.052\"",
+              "Low clouds 81%",
+              "Exit wind 36.9kt > limit",
+              "CAPE 1273 \u2014 severe",
+              "Gust spread 13.2kt",
+              "Mid clouds 72%"
+            ]
+          },
+          "surface_count": 80,
+          "exit_winds_count": 160
+        }
+      ]
     }
   ]
 }
