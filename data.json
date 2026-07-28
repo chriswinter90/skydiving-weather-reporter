@@ -340,6 +340,76 @@
           "exit_winds_count": 160
         }
       ]
+    },
+    {
+      "generated_at": "2026-07-28T06:00:43.419988+00:00",
+      "location": {
+        "lat": 38.52,
+        "lon": -84.43,
+        "name": "Start Skydiving, Middletown OH"
+      },
+      "models": [
+        {
+          "model_name": "hrrrConus",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "12:00pm-3:00pm",
+            "reasons": [
+              "4 hours rated GO",
+              "2 hours rated CAUTION",
+              "4 hours rated NO JUMP",
+              "Precip 0.005\"",
+              "Exit wind 25.1kt",
+              "CAPE 1578 \u2014 severe",
+              "Mid clouds 100% \u2014 blind exit",
+              "Low clouds 79%",
+              "Gust spread 10.1kt"
+            ]
+          },
+          "surface_count": 14,
+          "exit_winds_count": 28
+        },
+        {
+          "model_name": "icon",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "2:00pm-8:00pm",
+            "reasons": [
+              "8 hours rated GO",
+              "11 hours rated CAUTION",
+              "17 hours rated NO JUMP",
+              "Low clouds 94%",
+              "Precip 0.029\"",
+              "CAPE 1156 \u2014 severe",
+              "Gust spread 13.0kt",
+              "Mid clouds 95% \u2014 blind exit",
+              "Exit wind 26.0kt"
+            ]
+          },
+          "surface_count": 60,
+          "exit_winds_count": 120
+        },
+        {
+          "model_name": "gfs",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "11:00am-8:00pm",
+            "reasons": [
+              "11 hours rated GO",
+              "8 hours rated CAUTION",
+              "31 hours rated NO JUMP",
+              "Mid clouds 68%",
+              "Exit wind 25.1kt",
+              "Precip 0.004\"",
+              "CAPE 725",
+              "Low clouds 93%",
+              "Gust spread 11.5kt"
+            ]
+          },
+          "surface_count": 80,
+          "exit_winds_count": 160
+        }
+      ]
     }
   ]
 }
