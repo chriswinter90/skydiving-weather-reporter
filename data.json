@@ -1,144 +1,6 @@
 {
   "forecasts": [
     {
-      "generated_at": "2026-07-27T00:22:19.045674+00:00",
-      "location": {
-        "lat": 38.52,
-        "lon": -84.43,
-        "name": "Start Skydiving, Middletown OH"
-      },
-      "models": [
-        {
-          "model_name": "hrrrConus",
-          "verdict": {
-            "rating": "CAUTION",
-            "best_window": "9:00am-12:00pm",
-            "reasons": [
-              "2 hours rated CAUTION",
-              "6 hours rated NO JUMP",
-              "Precip 0.697\"",
-              "Exit wind 25.1kt",
-              "Low clouds 61%",
-              "Mid clouds 78%",
-              "CAPE 1387 \u2014 severe"
-            ]
-          },
-          "surface_count": 14,
-          "exit_winds_count": 28
-        },
-        {
-          "model_name": "icon",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "8:00pm-2:00pm",
-            "reasons": [
-              "15 hours rated GO",
-              "8 hours rated CAUTION",
-              "14 hours rated NO JUMP",
-              "CAPE 2434 \u2014 severe",
-              "Precip 0.022\"",
-              "Gust spread 17.7kt > 15kt",
-              "Low clouds 58%",
-              "Exit wind 38.2kt > limit",
-              "Mid clouds 59%"
-            ]
-          },
-          "surface_count": 58,
-          "exit_winds_count": 116
-        },
-        {
-          "model_name": "gfs",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "11:00am-5:00pm",
-            "reasons": [
-              "14 hours rated GO",
-              "12 hours rated CAUTION",
-              "24 hours rated NO JUMP",
-              "Low clouds 97%",
-              "Exit wind 31.9kt",
-              "Precip 0.008\"",
-              "CAPE 1471 \u2014 severe",
-              "Gust spread 11.8kt",
-              "Mid clouds 77%"
-            ]
-          },
-          "surface_count": 80,
-          "exit_winds_count": 160
-        }
-      ]
-    },
-    {
-      "generated_at": "2026-07-27T05:56:19.931099+00:00",
-      "location": {
-        "lat": 38.52,
-        "lon": -84.43,
-        "name": "Start Skydiving, Middletown OH"
-      },
-      "models": [
-        {
-          "model_name": "hrrrConus",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "5:00pm",
-            "reasons": [
-              "1 hour rated GO",
-              "3 hours rated CAUTION",
-              "6 hours rated NO JUMP",
-              "Mid clouds 65%",
-              "CAPE 699",
-              "Precip 0.006\"",
-              "Gust spread 13.2kt",
-              "Low clouds 87%",
-              "Exit wind 32.6kt"
-            ]
-          },
-          "surface_count": 15,
-          "exit_winds_count": 30
-        },
-        {
-          "model_name": "icon",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "5:00pm-8:00am",
-            "reasons": [
-              "5 hours rated GO",
-              "7 hours rated CAUTION",
-              "24 hours rated NO JUMP",
-              "CAPE 1128 \u2014 severe",
-              "Precip 1.077\"",
-              "Mid clouds 94% \u2014 blind exit",
-              "Exit wind 33.0kt",
-              "Low clouds 100%",
-              "Gust spread 12.8kt"
-            ]
-          },
-          "surface_count": 60,
-          "exit_winds_count": 120
-        },
-        {
-          "model_name": "gfs",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "5:00pm-5:00pm",
-            "reasons": [
-              "13 hours rated GO",
-              "11 hours rated CAUTION",
-              "26 hours rated NO JUMP",
-              "Mid clouds 83% \u2014 blind exit",
-              "Gust spread 11.9kt",
-              "Low clouds 100%",
-              "Exit wind 30.9kt",
-              "Precip 0.022\"",
-              "CAPE 2109 \u2014 severe"
-            ]
-          },
-          "surface_count": 80,
-          "exit_winds_count": 160
-        }
-      ]
-    },
-    {
       "generated_at": "2026-07-27T11:57:23.462006+00:00",
       "location": {
         "lat": 38.52,
@@ -853,6 +715,70 @@
               "Gust spread 12.7kt",
               "Exit wind 26.2kt",
               "Mid clouds 76%"
+            ]
+          },
+          "surface_count": 80,
+          "exit_winds_count": 160
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-07-30T06:11:27.017043+00:00",
+      "location": {
+        "lat": 38.52,
+        "lon": -84.43,
+        "name": "Start Skydiving, Middletown OH"
+      },
+      "models": [
+        {
+          "model_name": "hrrrConus",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "6:00am-6:00pm",
+            "reasons": [
+              "9 hours rated GO",
+              "1 hour rated NO JUMP",
+              "Mid clouds 98% \u2014 blind exit"
+            ]
+          },
+          "surface_count": 14,
+          "exit_winds_count": 28
+        },
+        {
+          "model_name": "icon",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "8:00am-8:00am",
+            "reasons": [
+              "4 hours rated GO",
+              "11 hours rated CAUTION",
+              "21 hours rated NO JUMP",
+              "Precip 0.025\"",
+              "CAPE 1119 \u2014 severe",
+              "Exit wind 31.5kt",
+              "Mid clouds 76%",
+              "Low clouds 67%",
+              "Gust spread 15.2kt > 15kt"
+            ]
+          },
+          "surface_count": 60,
+          "exit_winds_count": 120
+        },
+        {
+          "model_name": "gfs",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "2:00pm-2:00pm",
+            "reasons": [
+              "13 hours rated GO",
+              "6 hours rated CAUTION",
+              "31 hours rated NO JUMP",
+              "Low clouds 100%",
+              "CAPE 566",
+              "Precip 0.111\"",
+              "Gust spread 15.5kt > 15kt",
+              "Mid clouds 62%",
+              "Exit wind 26.4kt"
             ]
           },
           "surface_count": 80,
