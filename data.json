@@ -1,73 +1,6 @@
 {
   "forecasts": [
     {
-      "generated_at": "2026-07-27T17:58:32.825991+00:00",
-      "location": {
-        "lat": 38.52,
-        "lon": -84.43,
-        "name": "Start Skydiving, Middletown OH"
-      },
-      "models": [
-        {
-          "model_name": "hrrrConus",
-          "verdict": {
-            "rating": "CAUTION",
-            "best_window": "9:00am",
-            "reasons": [
-              "1 hour rated CAUTION",
-              "7 hours rated NO JUMP",
-              "CAPE 1703 \u2014 severe",
-              "Exit wind 30.1kt",
-              "Precip 0.001\"",
-              "Mid clouds 100% \u2014 blind exit"
-            ]
-          },
-          "surface_count": 14,
-          "exit_winds_count": 28
-        },
-        {
-          "model_name": "icon",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "5:00pm-5:00pm",
-            "reasons": [
-              "10 hours rated GO",
-              "15 hours rated CAUTION",
-              "14 hours rated NO JUMP",
-              "Gust spread 11.2kt",
-              "Exit wind 32.5kt",
-              "Low clouds 63%",
-              "Mid clouds 52%",
-              "CAPE 694",
-              "Precip 0.006\""
-            ]
-          },
-          "surface_count": 60,
-          "exit_winds_count": 120
-        },
-        {
-          "model_name": "gfs",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "11:00am-8:00pm",
-            "reasons": [
-              "9 hours rated GO",
-              "6 hours rated CAUTION",
-              "35 hours rated NO JUMP",
-              "Low clouds 99%",
-              "Exit wind 26.5kt",
-              "Precip 0.063\"",
-              "CAPE 774",
-              "Mid clouds 100% \u2014 blind exit",
-              "Gust spread 10.8kt"
-            ]
-          },
-          "surface_count": 80,
-          "exit_winds_count": 160
-        }
-      ]
-    },
-    {
       "generated_at": "2026-07-27T23:59:39.117930+00:00",
       "location": {
         "lat": 38.52,
@@ -775,6 +708,70 @@
               "Low clouds 71%",
               "CAPE 633",
               "Exit wind 28.4kt"
+            ]
+          },
+          "surface_count": 80,
+          "exit_winds_count": 160
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-07-30T18:13:35.189361+00:00",
+      "location": {
+        "lat": 38.52,
+        "lon": -84.43,
+        "name": "Start Skydiving, Middletown OH"
+      },
+      "models": [
+        {
+          "model_name": "hrrrConus",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "3:00pm-12:00pm",
+            "reasons": [
+              "5 hours rated GO",
+              "3 hours rated NO JUMP",
+              "Low clouds 95%",
+              "Mid clouds 100% \u2014 blind exit"
+            ]
+          },
+          "surface_count": 14,
+          "exit_winds_count": 28
+        },
+        {
+          "model_name": "icon",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "8:00am-2:00pm",
+            "reasons": [
+              "3 hours rated GO",
+              "10 hours rated CAUTION",
+              "26 hours rated NO JUMP",
+              "Precip 0.041\"",
+              "Exit wind 48.1kt > limit",
+              "CAPE 848",
+              "Low clouds 77%",
+              "Mid clouds 81% \u2014 blind exit"
+            ]
+          },
+          "surface_count": 60,
+          "exit_winds_count": 120
+        },
+        {
+          "model_name": "gfs",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "8:00pm-5:00pm",
+            "reasons": [
+              "8 hours rated GO",
+              "8 hours rated CAUTION",
+              "34 hours rated NO JUMP",
+              "Precip 0.213\"",
+              "Mid clouds 95% \u2014 blind exit",
+              "CAPE 601",
+              "Gust spread 11.5kt",
+              "Exit wind 34.3kt",
+              "Low clouds 56%"
             ]
           },
           "surface_count": 80,
