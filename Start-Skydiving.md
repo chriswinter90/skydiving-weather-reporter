@@ -1,6 +1,6 @@
 # Start Skydiving — Middletown, OH
 
-*Auto-updated every 6h · Last: 2026-07-31 3:35 PM EDT*
+*Auto-updated every 6h · Last: 2026-07-31 3:56 PM EDT*
 *Coordinates: 38.52°N, 84.43°W*
 *Airfield elevation: 650 ft MSL · Exit: 13,500 ft AGL*
 
