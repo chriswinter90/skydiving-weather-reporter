@@ -171,17 +171,19 @@ def process_surface(surface: dict, timestamps: list) -> list:
 
 
 def process_exit_winds(exit_winds: dict, timestamps: list) -> list:
-    """Process exit wind data (625hPa ≈ 14,000 ft MSL ≈ 13,350 ft AGL)."""
+    """Process exit wind data — supports any pressure level key (e.g. '625h', '600h')."""
     entries = []
-    if "625h" not in exit_winds:
+    if not exit_winds:
         return entries
-    speed_arr = exit_winds["625h"].get("speed", [])
-    dir_arr = exit_winds["625h"].get("direction", [])
+    # Use whatever pressure level key the model provides
+    level_key = list(exit_winds.keys())[0]
+    speed_arr = exit_winds[level_key].get("speed", [])
+    dir_arr = exit_winds[level_key].get("direction", [])
     for i, ts in enumerate(timestamps):
         if i >= len(speed_arr) or speed_arr[i] is None:
             continue
         spd = speed_arr[i]
-        e = {"time_utc": ts, "pressure_level": "625h", "approx_alt_ft": 14000,
+        e = {"time_utc": ts, "pressure_level": level_key, "approx_alt_ft": 14000,
              "wind_kts": round(spd, 1)}
         if i < len(dir_arr) and dir_arr[i] is not None:
             e["wind_dir"] = wind_dir(dir_arr[i])

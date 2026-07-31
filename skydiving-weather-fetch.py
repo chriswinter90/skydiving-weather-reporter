@@ -6,15 +6,11 @@ Usage:
     python3 skydiving-weather-fetch.py [output_path]
 
 Outputs JSON to /tmp/weather-raw.json by default.
-Data sources:
-  - GFS: https://api.open-meteo.com/v1/forecast?forecast_model=gfs
-  - HRRR: https://api.open-meteo.com/v1/forecast?forecast_model=hrrr
-  - ICON: https://api.open-meteo.com/v1/forecast?forecast_model=icon
+Data sources: Open-Meteo v1 forecast API (api.open-meteo.com)
 """
 
 import json
 import sys
-import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -27,24 +23,32 @@ LOCATION_NAME = "Start Skydiving, Middletown OH"
 BASE_URL = "https://api.open-meteo.com/v1/forecast"
 TIMEZONE = "America/New_York"
 
-# Pressure levels for cloud cover bands (skydiving-specific, MSL)
-# Low (3k-5k ft): 900, 875, 850 hPa
-# Mid (5k-8k ft): 825, 800, 775 hPa
-# High (8k-14.5k ft): 750, 725, 700, 675, 650, 625 hPa
-CLOUD_BANDS = {
-    "low": [900, 875, 850],
-    "mid": [825, 800, 775],
-    "high": [750, 725, 700, 675, 650, 625],
+# Per-model configuration: pressure levels for cloud bands + exit wind level
+MODEL_CONFIGS = {
+    "ncep_gfs_seamless": {
+        "display": "NOAA GFS",
+        "cloud_levels": {
+            "low":  [900, 875, 850],
+            "mid":  [825, 800, 775],
+            "high": [750, 725, 700, 675, 650, 625],
+        },
+        "exit_wind_level": 625,  # ~14,000 ft MSL ≈ 13,350 ft AGL
+    },
+    "ecmwf_ifs": {
+        "display": "ECMWF",
+        "cloud_levels": {
+            "low":  [925, 850],
+            "mid":  [700],
+            "high": [600, 500],
+        },
+        "exit_wind_level": 600,  # ~14,000 ft MSL ≈ 13,350 ft AGL
+    },
 }
 
-# Exit wind: 625hPa ≈ 14,000 ft MSL ≈ 13,350 ft AGL (close to 13,500 ft AGL exit)
-EXIT_WIND_LEVEL = 625
 
-ALL_CLOUD_LEVELS = CLOUD_BANDS["low"] + CLOUD_BANDS["mid"] + CLOUD_BANDS["high"]
-
-
-def build_hourly_vars():
-    """Build the list of hourly variables to request."""
+def build_hourly_vars(model_id):
+    """Build the list of hourly variables to request for a specific model."""
+    cfg = MODEL_CONFIGS[model_id]
     hourly = [
         "temperature_2m",
         "dewpoint_2m",
@@ -56,25 +60,32 @@ def build_hourly_vars():
         "weather_code",
         "pressure_msl",
     ]
-    # Cloud cover at each pressure level
-    for level in ALL_CLOUD_LEVELS:
+    # Cloud cover at this model's pressure levels
+    all_levels = []
+    for levels in cfg["cloud_levels"].values():
+        all_levels.extend(levels)
+    for level in sorted(set(all_levels)):
         hourly.append(f"cloud_cover_{level}hPa")
-    # Exit wind at 625hPa
-    hourly.append(f"wind_speed_{EXIT_WIND_LEVEL}hPa")
-    hourly.append(f"wind_direction_{EXIT_WIND_LEVEL}hPa")
+    # Exit wind
+    hourly.append(f"wind_speed_{cfg['exit_wind_level']}hPa")
+    hourly.append(f"wind_direction_{cfg['exit_wind_level']}hPa")
     return hourly
 
 
-def fetch_model(model_id, display_name, max_days=3):
-    """Fetch data from Open-Meteo for a single model."""
-    hourly_vars = build_hourly_vars()
+def fetch_model(model_id):
+    """Fetch data from Open-Meteo for a single model using its specific config."""
+    cfg = MODEL_CONFIGS[model_id]
+    display_name = cfg["display"]
+    exit_level = cfg["exit_wind_level"]
+    hourly_vars = build_hourly_vars(model_id)
+
     params = {
         "latitude": LAT,
         "longitude": LON,
         "forecast_model": model_id,
         "hourly": ",".join(hourly_vars),
         "timezone": TIMEZONE,
-        "forecast_days": max_days,
+        "forecast_days": 3,
         "wind_speed_unit": "kn",
         "temperature_unit": "fahrenheit",
         "precipitation_unit": "inch",
@@ -92,12 +103,7 @@ def fetch_model(model_id, display_name, max_days=3):
     times = hourly["time"]
     n = len(times)
 
-    # Build variable name -> index mapping
-    var_names = hourly_vars  # from our request
-    var_index = {name: i for i, name in enumerate(var_names)}
-
     def get_values(var_name):
-        """Extract values for a variable, handling None/NaN."""
         if var_name not in hourly:
             return [None] * n
         raw = hourly[var_name]
@@ -108,12 +114,11 @@ def fetch_model(model_id, display_name, max_days=3):
             else:
                 try:
                     f = float(v)
-                    result.append(f if f == f else None)  # NaN check
+                    result.append(f if f == f else None)
                 except (TypeError, ValueError):
                     result.append(None)
         return result
 
-    # Timestamps as epoch seconds for processing
     timestamps_epoch = []
     timestamps_str = []
     for t in times:
@@ -121,7 +126,6 @@ def fetch_model(model_id, display_name, max_days=3):
         timestamps_epoch.append(int(dt.replace(tzinfo=timezone.utc).timestamp()))
         timestamps_str.append(dt.strftime("%Y-%m-%d %H:%M %Z"))
 
-    # Surface variables
     surface = {
         "temp_f": get_values("temperature_2m"),
         "dewpoint_f": get_values("dewpoint_2m"),
@@ -134,9 +138,7 @@ def fetch_model(model_id, display_name, max_days=3):
         "pressure": get_values("pressure_msl"),
     }
 
-    # Average cloud cover for each band
     def avg_cloud_band(levels):
-        """Average cloud cover across a band of pressure levels."""
         result = []
         for i in range(n):
             values = []
@@ -148,22 +150,22 @@ def fetch_model(model_id, display_name, max_days=3):
                     if v is not None:
                         try:
                             f = float(v)
-                            if f == f:  # not NaN
+                            if f == f:
                                 values.append(f)
                         except (TypeError, ValueError):
                             pass
             result.append(round(sum(values) / len(values)) if values else 0)
         return result
 
-    surface["cloud_low"] = avg_cloud_band(CLOUD_BANDS["low"])
-    surface["cloud_mid"] = avg_cloud_band(CLOUD_BANDS["mid"])
-    surface["cloud_high"] = avg_cloud_band(CLOUD_BANDS["high"])
+    surface["cloud_low"] = avg_cloud_band(cfg["cloud_levels"]["low"])
+    surface["cloud_mid"] = avg_cloud_band(cfg["cloud_levels"]["mid"])
+    surface["cloud_high"] = avg_cloud_band(cfg["cloud_levels"]["high"])
 
-    # Exit winds at 625hPa
+    exit_key = f"{exit_level}h"
     exit_winds = {
-        "625h": {
-            "speed": get_values(f"wind_speed_{EXIT_WIND_LEVEL}hPa"),
-            "direction": get_values(f"wind_direction_{EXIT_WIND_LEVEL}hPa"),
+        exit_key: {
+            "speed": get_values(f"wind_speed_{exit_level}hPa"),
+            "direction": get_values(f"wind_direction_{exit_level}hPa"),
         }
     }
 
@@ -182,33 +184,13 @@ def main():
     output_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("/tmp/weather-raw.json")
 
     models = []
-    # Primary fetch — GFS is the default on free tier and has the best variable coverage
-    print("Fetching GFS...")
-    try:
-        models.append(fetch_model("gfs", "GFS"))
-        print(f"  ✅ GFS — {len(models[-1]['timestamps'])} hours")
-    except Exception as e:
-        print(f"  ✗ GFS failed: {e}", file=sys.stderr)
-
-    # Also try HRRR and ICON — on free tier they may return the same data as GFS
-    # We fetch them anyway in case they diverge, and de-dup after
-    for model_id, display_name in [("hrrr", "HRRR"), ("icon", "ICON")]:
-        print(f"Fetching {display_name}...")
-        time.sleep(0.3)
+    for model_id in MODEL_CONFIGS:
+        cfg = MODEL_CONFIGS[model_id]
+        display_name = cfg["display"]
+        print(f"Fetching {display_name} ({model_id})...")
         try:
-            m = fetch_model(model_id, display_name)
-            # Check if this model actually differs from GFS
-            if models:
-                gfs = models[0]["surface"]
-                gfs_ew = models[0]["exit_winds"]
-                same = (m["surface"]["temp_f"] == gfs["temp_f"] and
-                        m["surface"]["cloud_low"] == gfs["cloud_low"] and
-                        m["exit_winds"]["625h"]["speed"] == gfs_ew["625h"]["speed"])
-                if same:
-                    print(f"  ⚠️  {display_name} returned identical data to GFS (free tier limitation) — skipping")
-                    continue
-            models.append(m)
-            print(f"  ✅ {display_name} — {len(m['timestamps'])} hours (distinct data)")
+            models.append(fetch_model(model_id))
+            print(f"  ✅ {display_name} — {len(models[-1]['timestamps'])} hours")
         except Exception as e:
             print(f"  ✗ {display_name} failed: {e}", file=sys.stderr)
 
