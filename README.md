@@ -2,7 +2,8 @@
 
 Auto-generated weather forecasts for **Start Skydiving** in Middletown, OH.
 
-- Updated every 6 hours from Windy via HRRR/ICON/GFS models
+- Updated every 6 hours from [Open-Meteo](https://open-meteo.com)
+- Models: **NOAA GFS** (`ncep_gfs_seamless`) and **ECMWF** (`ecmwf_ifs`)
 - See [Start-Skydiving.md](Start-Skydiving.md) for the latest human-readable forecast
 - Raw forecast history in [data.json](data.json)
 
@@ -12,12 +13,14 @@ Auto-generated weather forecasts for **Start Skydiving** in Middletown, OH.
 - **Coordinates:** 38.52°N, 84.43°W
 - **Typical exit altitude:** 13,500 ft AGL
 
-## Cloud Layers (WMO mid-latitude)
+## Cloud Bands (Pressure-Level Averages)
 
-| Layer | MSL | AGL (at 650 ft) |
-|-------|-----|-----------------|
-| **Low** | Surface – 6,500 ft | 0 – ~5,850 ft AGL |
-| **Mid** | 6,500 – 20,000 ft | ~5,850 – ~19,350 ft AGL |
-| **High** | 20,000+ ft | ~19,350+ ft AGL |
+Cloud cover is averaged from specific pressure levels mapped to skydiving-relevant altitude bands:
 
-**Exit altitude (13,500 ft AGL) falls in the mid-cloud band.** Mid-cloud coverage is the primary concern — 100% mid clouds means exiting into a solid layer with no horizon reference and a blind deployment. Low clouds affect landing visibility; high clouds are generally not a factor for skydiving.
+| Band | Approx. Altitude | NOAA US Levels | ECMWF Levels |
+|------|-----------------|------------|--------------|
+| **Low** | 3,000–5,000 ft | 900, 875, 850 hPa | 925, 850 hPa |
+| **Mid** | 5,000–8,000 ft | 825, 800, 775 hPa | *(none — gap in data)* |
+| **High** | 8,000–14,500 ft | 750, 725, 700, 675, 650, 625 hPa | 700, 600, 500 hPa |
+
+**Exit altitude (13,500 ft AGL ≈ 14,150 ft MSL) falls near the high-band ceiling.** Exit winds are sampled at 625 hPa (GFS) / 600 hPa (ECMWF), both ~14,000 ft MSL. Mid-cloud coverage is the primary concern — 100% mid clouds means exiting into a solid layer with no horizon reference and a blind deployment. Low clouds affect landing visibility.
