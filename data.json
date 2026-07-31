@@ -1094,6 +1094,86 @@
           "exit_winds_count": 50
         }
       ]
+    },
+    {
+      "generated_at": "2026-07-31T17:30:42.508107+00:00",
+      "location": {
+        "lat": 38.52,
+        "lon": -84.43,
+        "name": "Start Skydiving, Middletown OH"
+      },
+      "models": [
+        {
+          "model_name": "gfs",
+          "display_name": "GFS",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "8:00pm-6:00pm",
+            "reasons": [
+              "21 hours rated GO",
+              "11 hours rated CAUTION",
+              "13 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 72,
+          "exit_winds_count": 72
+        },
+        {
+          "model_name": "hrrr",
+          "display_name": "HRRR",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "8:00pm-6:00pm",
+            "reasons": [
+              "21 hours rated GO",
+              "11 hours rated CAUTION",
+              "13 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 72,
+          "exit_winds_count": 72
+        },
+        {
+          "model_name": "icon",
+          "display_name": "ICON",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "8:00pm-6:00pm",
+            "reasons": [
+              "21 hours rated GO",
+              "11 hours rated CAUTION",
+              "13 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 72,
+          "exit_winds_count": 72
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-07-31T17:34:02.483666+00:00",
+      "location": {
+        "lat": 38.52,
+        "lon": -84.43,
+        "name": "Start Skydiving, Middletown OH"
+      },
+      "models": [
+        {
+          "model_name": "gfs",
+          "display_name": "GFS",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "8:00pm-6:00pm",
+            "reasons": [
+              "21 hours rated GO",
+              "11 hours rated CAUTION",
+              "13 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 72,
+          "exit_winds_count": 72
+        }
+      ]
     }
   ]
 }
