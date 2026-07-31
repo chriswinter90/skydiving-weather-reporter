@@ -1,6 +1,6 @@
 # Start Skydiving — Middletown, OH
 
-*Auto-updated every 6h · Last: 2026-07-31 2:06 PM EDT*
+*Auto-updated every 6h · Last: 2026-07-31 2:10 PM EDT*
 *Coordinates: 38.52°N, 84.43°W*
 *Airfield elevation: 650 ft MSL · Exit: 13,500 ft AGL*
 
@@ -10,29 +10,10 @@
 
 *Note: Exit winds at ~14k ft MSL (~13,350 ft AGL — actual exit: 13,500 ft AGL)*
 
-**Thursday Jul 30**
-
-| Time | Temp°F | Surf | Gusts | Spread | Exit(~13.5k) | ClBase(ft) | LowCl | MidCl | HighCl | Dewpt°F | Precip |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| 8:00pm | 68.4 | 2.0 N | 2.5 | 0.5 | 11.7NNE | 4360 | 4% | 2% | 0% | 57.5 | 0.000" |
-| 9:00pm | 66.7 | 1.7 N | 2.3 | 0.6 | 10.0N | 4040 | 0% | 0% | 0% | 56.6 | 0.000" |
-| 10:00pm | 65.6 | 3.3 W | 3.3 | 0 | 9.6N | 3240 | 0% | 0% | 0% | 57.5 | 0.000" |
-
 **Friday Jul 31**
 
 | Time | Temp°F | Surf | Gusts | Spread | Exit(~13.5k) | ClBase(ft) | LowCl | MidCl | HighCl | Dewpt°F | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 4:00am | 64.6 | 1.4 SE | 2.3 | 0.9 | 12.2WNW | 480 | 0% | 0% | 0% | 63.4 | 0.000" |
-| 5:00am | 70.2 | 1.6 SE | 5.4 | 3.8 | 13.6WNW | 1880 | 0% | 0% | 0% | 65.5 | 0.000" |
-| 6:00am | 76.5 | 3.3 E | 7.4 | 4.1 | 12.2WNW | 4040 | 0% | 0% | 0% | 66.4 | 0.000" |
-| 7:00am | 80.4 | 3.0 E | 5.1 | 2.1 | 10.0W | 6240 | 0% | 0% | 0% | 64.8 | 0.000" |
-| 8:00am | 83.2 | 4.0 ESE | 5.6 | 1.6 | 9.6WSW | 8680 | 0% | 0% | 0% | 61.5 | 0.000" |
-| 9:00am | 85.3 | 5.1 SE | 6.4 | 1.3 | 10.8WSW | 10560 | 0% | 0% | 0% | 58.9 | 0.000" |
-| 10:00am | 87.5 | 3.2 E | 4.7 | 1.5 | 12.3WSW | 11800 | 0% | 0% | 0% | 58.0 | 0.000" |
-| 11:00am | 88.8 | 7.0 E | 7.6 | 0.6 | 13.4WSW | 12160 | 0% | 0% | 0% | 58.4 | 0.000" |
-| 12:00pm | 89.3 | 6.7 ESE | 7.4 | 0.7 | 13.8WSW | 13160 | 0% | 0% | 0% | 56.4 | 0.000" |
-| 1:00pm | 89.5 | 6.5 ESE | 7.8 | 1.3 | 15.4WSW | 13840 | 0% | 0% | 0% | 54.9 | 0.000" |
-| 2:00pm | 88.5 | 4.3 E | 7.0 | 2.7 | 13.8WSW | 13440 | 0% | 0% | 0% | 54.9 | 0.000" |
 | 3:00pm | 88.1 | 5.7 SSE | 8.2 | 2.5 | 13.5W | 14120 | 0% | 0% | 0% | 52.8 | 0.000" |
 | 4:00pm | 86.4 | 4.9 S | 9.3 | 4.4 | 13.2W | 13320 | 0% | 1% | 0% | 53.1 | 0.000" |
 | 5:00pm | 82.0 | 4.4 SSW | 8.6 | 4.2 | 12.9W | 11520 | 0% | 0% | 0% | 53.2 | 0.000" |
@@ -91,29 +72,10 @@
 
 *Note: Exit winds at ~14k ft MSL (~13,350 ft AGL — actual exit: 13,500 ft AGL)*
 
-**Thursday Jul 30**
-
-| Time | Temp°F | Surf | Gusts | Spread | Exit(~13.5k) | ClBase(ft) | LowCl | MidCl | HighCl | Dewpt°F | Precip |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| 8:00pm | 68.4 | 2.0 N | 2.5 | 0.5 | 12.5N | 4360 | 6% | 0% | 0% | 57.5 | 0.000" |
-| 9:00pm | 66.7 | 1.7 N | 2.3 | 0.6 | 11.5N | 4040 | 0% | 0% | 0% | 56.6 | 0.000" |
-| 10:00pm | 65.6 | 3.3 W | 3.3 | 0 | 11.5N | 3240 | 0% | 0% | 0% | 57.5 | 0.000" |
-
 **Friday Jul 31**
 
 | Time | Temp°F | Surf | Gusts | Spread | Exit(~13.5k) | ClBase(ft) | LowCl | MidCl | HighCl | Dewpt°F | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 4:00am | 64.6 | 1.4 SE | 2.3 | 0.9 | 13.8WNW | 480 | 0% | 0% | 0% | 63.4 | 0.000" |
-| 5:00am | 70.2 | 1.6 SE | 5.4 | 3.8 | 15.3WNW | 1880 | 0% | 0% | 0% | 65.5 | 0.000" |
-| 6:00am | 76.5 | 3.3 E | 7.4 | 4.1 | 14.2WNW | 4040 | 0% | 0% | 0% | 66.4 | 0.000" |
-| 7:00am | 80.4 | 3.0 E | 5.1 | 2.1 | 10.9WNW | 6240 | 0% | 0% | 0% | 64.8 | 0.000" |
-| 8:00am | 83.2 | 4.0 ESE | 5.6 | 1.6 | 10.6W | 8680 | 0% | 0% | 0% | 61.5 | 0.000" |
-| 9:00am | 85.3 | 5.1 SE | 6.4 | 1.3 | 12.0WSW | 10560 | 0% | 0% | 0% | 58.9 | 0.000" |
-| 10:00am | 87.5 | 3.2 E | 4.7 | 1.5 | 12.3WSW | 11800 | 0% | 0% | 0% | 58.0 | 0.000" |
-| 11:00am | 88.8 | 7.0 E | 7.6 | 0.6 | 12.9WSW | 12160 | 0% | 0% | 0% | 58.4 | 0.000" |
-| 12:00pm | 89.3 | 6.7 ESE | 7.4 | 0.7 | 14.2WSW | 13160 | 0% | 0% | 0% | 56.4 | 0.000" |
-| 1:00pm | 89.5 | 6.5 ESE | 7.8 | 1.3 | 15.5WSW | 13840 | 0% | 0% | 0% | 54.9 | 0.000" |
-| 2:00pm | 88.5 | 4.3 E | 7.0 | 2.7 | 13.9W | 13440 | 0% | 0% | 0% | 54.9 | 0.000" |
 | 3:00pm | 88.1 | 5.7 SSE | 8.2 | 2.5 | 13.7W | 14120 | 0% | 0% | 0% | 52.8 | 0.000" |
 | 4:00pm | 86.4 | 4.9 S | 9.3 | 4.4 | 12.9W | 13320 | 0% | 0% | 19% | 53.1 | 0.000" |
 | 5:00pm | 82.0 | 4.4 SSW | 8.6 | 4.2 | 12.9W | 11520 | 0% | 0% | 10% | 53.2 | 0.000" |
@@ -174,8 +136,7 @@
 
 | Day | Rating | Jump Hrs | Avg Surf | Max Gust | Avg Exit(~13.5k) | ClBase(ft) | Avg LowCl | Avg MidCl | Temp Range | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Thursday Jul 30 | ✅ GO | 1/1 | 2.9kt | 4.7kt | 10.3kt | 3580ft | 1% | 0% | 64.4–68.4° | None |
-| Friday Jul 31 | ✅ GO | 15/15 | 3.7kt | 10.7kt | 12.7kt | 7742ft | 0% | 0% | 61.0–89.5° | None |
+| Friday Jul 31 | ✅ GO | 6/6 | 3.9kt | 10.7kt | 14.3kt | 9124ft | 0% | 0% | 72.7–88.1° | None |
 | Saturday Aug 01 | ❌ NO JUMP | 2/15 | 6.2kt | 21.2kt | 25.9kt | 2455ft | 31% | 38% | 70.2–81.8° | 0.654" |
 | Sunday Aug 02 | ❌ NO JUMP | 3/14 | 4.7kt | 19.2kt | 27.5kt | 1378ft | 41% | 27% | 64.6–72.2° | 0.004" |
 
@@ -183,8 +144,7 @@
 
 | Day | Rating | Jump Hrs | Avg Surf | Max Gust | Avg Exit(~13.5k) | ClBase(ft) | Avg LowCl | Avg MidCl | Temp Range | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Thursday Jul 30 | ✅ GO | 1/1 | 2.9kt | 4.7kt | 11.7kt | 3580ft | 2% | 0% | 64.4–68.4° | None |
-| Friday Jul 31 | ✅ GO | 15/15 | 3.7kt | 10.7kt | 13.6kt | 7742ft | 0% | 0% | 61.0–89.5° | None |
+| Friday Jul 31 | ✅ GO | 6/6 | 3.9kt | 10.7kt | 15.2kt | 9124ft | 0% | 0% | 72.7–88.1° | None |
 | Saturday Aug 01 | ❌ NO JUMP | 4/15 | 6.2kt | 21.2kt | 25.5kt | 2455ft | 26% | 29% | 70.2–81.8° | 0.654" |
 | Sunday Aug 02 | ❌ NO JUMP | 3/14 | 4.7kt | 19.2kt | 28.5kt | 1378ft | 39% | 27% | 64.6–72.2° | 0.004" |
 
@@ -192,14 +152,12 @@
 
 | Day NOAA GFS | ECMWF | Consensus |
 |---|---|---|---|
-| Thursday Jul 30 | ✅ GO | ✅ GO | ✅ GO (1/1, 1/1) |
-| Friday Jul 31 | ✅ GO | ✅ GO | ✅ GO (15/15, 15/15) |
+| Friday Jul 31 | ✅ GO | ✅ GO | ✅ GO (6/6, 6/6) |
 | Saturday Aug 01 | ❌ NO JUMP | ❌ NO JUMP | ❌ NO JUMP (2/15, 4/15) |
 | Sunday Aug 02 | ❌ NO JUMP | ❌ NO JUMP | ❌ NO JUMP (3/14, 3/14) |
 
 ### Key Concerns
 
-- **Thursday Jul 30**: No major concerns across models
 - **Friday Jul 31**: No major concerns across models
 - **Saturday Aug 01**: NOAA GFS: precip 0.654"; NOAA GFS: exit wind 39.5kt; ECMWF: precip 0.654"; ECMWF: exit wind 37.0kt; ECMWF: mid clouds 81% (blind exit)
 - **Sunday Aug 02**: NOAA GFS: precip 0.004"; NOAA GFS: exit wind 43.6kt; NOAA GFS: low clouds 100%; NOAA GFS: mid clouds 99% (blind exit); ECMWF: precip 0.004"; ECMWF: exit wind 42.3kt; ECMWF: low clouds 100%; ECMWF: mid clouds 100% (blind exit)

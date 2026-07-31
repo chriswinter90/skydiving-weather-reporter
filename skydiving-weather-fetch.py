@@ -119,6 +119,39 @@ def fetch_model(model_id):
                     result.append(None)
         return result
 
+    # Trim past timestamps — only keep data from "now" onward
+    now_utc = datetime.now(timezone.utc)
+    start_idx = 0
+    for i, t in enumerate(times):
+        dt = datetime.fromisoformat(t)
+        # Make comparable — both should be UTC-aware
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        if dt >= now_utc:
+            start_idx = i
+            break
+
+    # Rebuild all arrays starting from start_idx
+    times = times[start_idx:]
+    n = len(times)
+
+    def get_values(var_name):
+        if var_name not in hourly:
+            return [None] * n
+        raw = hourly[var_name][start_idx:]
+        result = []
+        for v in raw:
+            if v is None:
+                result.append(None)
+            else:
+                try:
+                    f = float(v)
+                    result.append(f if f == f else None)
+                except (TypeError, ValueError):
+                    result.append(None)
+        return result
+
+    # Build timestamps
     timestamps_epoch = []
     timestamps_str = []
     for t in times:
@@ -144,7 +177,7 @@ def fetch_model(model_id):
             values = []
             for level in levels:
                 var_name = f"cloud_cover_{level}hPa"
-                raw = hourly.get(var_name, [])
+                raw = hourly.get(var_name, [])[start_idx:]
                 if i < len(raw):
                     v = raw[i]
                     if v is not None:
@@ -178,7 +211,6 @@ def fetch_model(model_id):
         "exit_winds": exit_winds,
         "units": {k: v for k, v in hourly_units.items()},
     }
-
 
 def main():
     output_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("/tmp/weather-raw.json")
