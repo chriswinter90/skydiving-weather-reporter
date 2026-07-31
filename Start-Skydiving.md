@@ -129,32 +129,32 @@
 
 | Day | Rating | Jump Hrs | Avg Surf | Max Gust | Avg Exit(~10k) | ClBase(ft) | Avg LowCl | Avg MidCl | Temp Range | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|
+| Thursday Jul 30 | ❌ NO JUMP | 0/2 | 2.1kt | 7.9kt | 24.5kt | 5120ft | 24% | 20% | 80.4–85.7° | 0.191" |
 | Friday Jul 31 | ❌ NO JUMP | 0/5 | 2.8kt | 15.0kt | 16.0kt | 2825ft | 38% | 20% | 70.8–82.3° | 0.760" |
 | Saturday Aug 01 | ❌ NO JUMP | 0/5 | 3.5kt | 16.0kt | 12.1kt | 1655ft | 48% | 33% | 71.7–83.8° | 0.082" |
-| Thursday Jul 30 | ❌ NO JUMP | 0/2 | 2.1kt | 7.9kt | 24.5kt | 5120ft | 24% | 20% | 80.4–85.7° | 0.191" |
 | Sunday Aug 02 | ❌ NO JUMP | 0/4 | 3.3kt | 10.1kt | 20.2kt | 1720ft | 55% | 46% | 70.2–79.0° | 0.160" |
 
 ### GFS
 
 | Day | Rating | Jump Hrs | Avg Surf | Max Gust | Avg Exit(~10k) | ClBase(ft) | Avg LowCl | Avg MidCl | Temp Range | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|
+| Thursday Jul 30 | ❌ NO JUMP | 0/2 | 4.7kt | 11.8kt | 14.8kt | 4640ft | 23% | 5% | 73.1–80.0° | 0.073" |
 | Friday Jul 31 | ❌ NO JUMP | 1/5 | 5.5kt | 19.1kt | 13.9kt | 3050ft | 30% | 34% | 65.7–84.5° | 0.269" |
 | Saturday Aug 01 | ❌ NO JUMP | 0/5 | 6.0kt | 6.7kt | 14.5kt | 3180ft | 14% | 24% | 64.5–85.0° | 0.448" |
-| Thursday Jul 30 | ❌ NO JUMP | 0/2 | 4.7kt | 11.8kt | 14.8kt | 4640ft | 23% | 5% | 73.1–80.0° | 0.073" |
 | Sunday Aug 02 | ❌ NO JUMP | 1/4 | 4.8kt | 17.0kt | 10.7kt | 4733ft | 60% | 67% | 66.4–86.4° | 0.102" |
 
 ### Consensus Across Models
 
 | Day | HRRR | ICON | GFS | Consensus |
 |---|---|---|---|---|
+| Thursday Jul 30 | — | ❌ NO JUMP | ❌ NO JUMP | ❌ NO JUMP (0/2, 0/2) |
 | Friday Jul 31 | ❌ NO JUMP | ❌ NO JUMP | ❌ NO JUMP | ❌ NO JUMP (0/5, 0/5, 1/5) |
 | Saturday Aug 01 | ⚠️ CAUTION | ❌ NO JUMP | ❌ NO JUMP | ❌ NO JUMP (2/5, 0/5, 0/5) |
-| Thursday Jul 30 | — | ❌ NO JUMP | ❌ NO JUMP | ❌ NO JUMP (0/2, 0/2) |
 | Sunday Aug 02 | — | ❌ NO JUMP | ❌ NO JUMP | ❌ NO JUMP (0/4, 1/4) |
 
 ### Key Concerns
 
+- **Thursday Jul 30**: ICON: precip 0.191"; ICON: exit wind 39.1kt; GFS: precip 0.073"
 - **Friday Jul 31**: HRRR: precip 0.327"; HRRR: low clouds 98%; HRRR: mid clouds 100% (blind exit); HRRR: gust spread 18.8kt; ICON: precip 0.760"; ICON: low clouds 83%; GFS: precip 0.269"; GFS: low clouds 88%; GFS: mid clouds 100% (blind exit)
 - **Saturday Aug 01**: HRRR: low clouds 98%; HRRR: mid clouds 100% (blind exit); ICON: precip 0.082"; ICON: low clouds 82%; ICON: gust spread 15.4kt; GFS: precip 0.448"; GFS: mid clouds 88% (blind exit)
-- **Thursday Jul 30**: ICON: precip 0.191"; ICON: exit wind 39.1kt; GFS: precip 0.073"
 - **Sunday Aug 02**: ICON: precip 0.160"; ICON: mid clouds 92% (blind exit); GFS: precip 0.102"; GFS: low clouds 100%; GFS: mid clouds 99% (blind exit)
