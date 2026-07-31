@@ -148,7 +148,7 @@
 
 ### Consensus Across Models
 
-| Day NOAA GFS | ECMWF | Consensus |
+| Day | NOAA GFS | ECMWF | Consensus |
 |---|---|---|---|
 | Friday Jul 31 | ✅ GO | ✅ GO | ✅ GO (5/5, 5/5) |
 | Saturday Aug 01 | ❌ NO JUMP | ❌ NO JUMP | ❌ NO JUMP (2/15, 4/15) |
