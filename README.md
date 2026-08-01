@@ -48,3 +48,11 @@ weather-reports/
 scripts/                  # not committed — lives in a separate private repo
 README.md
 ```
+
+## License & Attribution
+
+Weather data sourced from [Open-Meteo.com](https://open-meteo.com) is licensed under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). All forecast files in this repository incorporate Open-Meteo data and are used under this license.
+
+Underlying model data:
+- **NOAA GFS** — public domain (NOAA / NCEP)
+- **ECMWF IFS** — provided via Open-Meteo under [ECMWF Open Data Policy](https://www.ecmwf.int/en/forecasts/datasets/open-data)
