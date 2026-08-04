@@ -157,6 +157,45 @@
           "exit_winds_count": 56
         }
       ]
+    },
+    {
+      "generated_at": "2026-08-04T01:08:09.073080+00:00",
+      "dropzone": "Start-Skydiving",
+      "location": {
+        "lat": 39.529555,
+        "lon": -84.392816,
+        "name": "Start Skydiving, Middletown OH"
+      },
+      "models": [
+        {
+          "model_name": "ncep_gfs_seamless",
+          "display_name": "NOAA GFS",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "6:00am-6:00pm",
+            "reasons": [
+              "28 hours rated GO",
+              "2 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 50,
+          "exit_winds_count": 50
+        },
+        {
+          "model_name": "ecmwf_ifs",
+          "display_name": "ECMWF",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "6:00am-6:00pm",
+            "reasons": [
+              "28 hours rated GO",
+              "2 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 50,
+          "exit_winds_count": 50
+        }
+      ]
     }
   ]
 }
