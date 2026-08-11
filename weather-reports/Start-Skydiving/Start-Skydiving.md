@@ -1,6 +1,6 @@
 # Start Skydiving, Middletown OH
 
-*Auto-updated every 6h · Last: 2026-08-11 3:58 AM EDT*
+*Auto-updated every 6h · Last: 2026-08-11 4:00 AM EDT*
 *Coordinates: 39.529555°N, 84.392816°W*
 *Airfield elevation: 650 ft MSL · Exit: 13,500 ft AGL*
 
@@ -14,7 +14,6 @@
 
 | Time | Temp°F | Surf | Gusts | Spread | Exit(~13.5k) | ClBase(ft) | LowCl | MidCl | HighCl | Dewpt°F | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 4:00am | 75.4 | 3.5 S | 7.4 | 3.9 | 26.8WNW | 1400 | 0% | 0% | 11% | 71.9 | 0.000" |
 | 5:00am | 75.3 | 2.9 SSW | 7.6 | 4.7 | 23.8WNW | 1280 | 0% | 0% | 16% | 72.1 | 0.000" |
 | 6:00am | 75.1 | 4.3 S | 9.3 | 5.0 | 24.5WNW | 1400 | 0% | 0% | 18% | 71.6 | 0.000" |
 | 7:00am | 74.7 | 2.9 S | 8.0 | 5.1 | 25.6WNW | 1240 | 0% | 0% | 31% | 71.6 | 0.000" |
@@ -90,7 +89,6 @@
 
 | Time | Temp°F | Surf | Gusts | Spread | Exit(~13.5k) | ClBase(ft) | LowCl | MidCl | HighCl | Dewpt°F | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 4:00am | 75.4 | 3.5 S | 7.4 | 3.9 | 25.9WNW | 1400 | 0% | N/A | 17% | 71.9 | 0.000" |
 | 5:00am | 75.3 | 2.9 SSW | 7.6 | 4.7 | 22.4WNW | 1280 | 0% | N/A | 18% | 72.1 | 0.000" |
 | 6:00am | 75.1 | 4.3 S | 9.3 | 5.0 | 24.0WNW | 1400 | 0% | N/A | 12% | 71.6 | 0.000" |
 | 7:00am | 74.7 | 2.9 S | 8.0 | 5.1 | 25.8WNW | 1240 | 0% | N/A | 21% | 71.6 | 0.000" |
@@ -164,7 +162,7 @@
 
 | Day | Rating | Jump Hrs | Avg Surf | Max Gust | Avg Exit(~13.5k) | ClBase(ft) | Avg LowCl | Avg MidCl | Temp Range | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Tuesday Aug 11 | ⚠️ CAUTION | 4/15 | 6.2kt | 27.6kt | 37.2kt | 1838ft | 7% | 7% | 67.9–86.8° | 1.587" |
+| Tuesday Aug 11 | ⚠️ CAUTION | 4/15 | 6.3kt | 27.6kt | 37.8kt | 1861ft | 7% | 8% | 67.9–86.8° | 1.587" |
 | Wednesday Aug 12 | ❌ NO JUMP | 0/15 | 5.6kt | 45.1kt | 42.7kt | 942ft | 12% | 10% | 66.3–75.4° | 5.952" |
 | Thursday Aug 13 | ⚠️ CAUTION | 10/15 | 3.1kt | 19.4kt | 34.5kt | 1333ft | 11% | 0% | 65.8–83.3° | 0.004" |
 
@@ -172,7 +170,7 @@
 
 | Day | Rating | Jump Hrs | Avg Surf | Max Gust | Avg Exit(~13.5k) | ClBase(ft) | Avg LowCl | Avg MidCl | Temp Range | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Tuesday Aug 11 | ⚠️ CAUTION | 4/15 | 6.2kt | 27.6kt | 37.3kt | 1838ft | 5% | N/A | 67.9–86.8° | 1.587" |
+| Tuesday Aug 11 | ⚠️ CAUTION | 4/15 | 6.3kt | 27.6kt | 37.9kt | 1861ft | 5% | N/A | 67.9–86.8° | 1.587" |
 | Wednesday Aug 12 | ❌ NO JUMP | 0/15 | 5.6kt | 45.1kt | 43.2kt | 942ft | 17% | N/A | 66.3–75.4° | 5.952" |
 | Thursday Aug 13 | ⚠️ CAUTION | 10/15 | 3.1kt | 19.4kt | 35.3kt | 1333ft | 4% | N/A | 65.8–83.3° | 0.004" |
 

@@ -1,6 +1,6 @@
 # Cleveland Skydiving Center, Garrettsville OH
 
-*Auto-updated every 6h · Last: 2026-08-11 3:58 AM EDT*
+*Auto-updated every 6h · Last: 2026-08-11 4:00 AM EDT*
 *Coordinates: 41.352036°N, 81.099411°W*
 *Airfield elevation: 1110 ft MSL · Exit: 13,500 ft AGL*
 
@@ -14,7 +14,6 @@
 
 | Time | Temp°F | Surf | Gusts | Spread | Exit(~13.5k) | ClBase(ft) | LowCl | MidCl | HighCl | Dewpt°F | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 4:00am | 70.4 | 5.9 WSW | 16.7 | 10.8 | 28.3WNW | 2040 | 0% | 0% | 0% | 65.3 | 0.000" |
 | 5:00am | 68.6 | 7.0 WSW | 13.0 | 6.0 | 32.5WNW | 2040 | 4% | 28% | 4% | 63.5 | 0.000" |
 | 6:00am | 68.0 | 7.5 SW | 17.9 | 10.4 | 35.9WNW | 1200 | 16% | 36% | 2% | 65.0 | 0.000" |
 | 7:00am | 67.4 | 5.6 SW | 13.6 | 8.0 | 34.6WNW | 1480 | 15% | 10% | 1% | 63.7 | 0.000" |
@@ -90,7 +89,6 @@
 
 | Time | Temp°F | Surf | Gusts | Spread | Exit(~13.5k) | ClBase(ft) | LowCl | MidCl | HighCl | Dewpt°F | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 4:00am | 70.4 | 5.9 WSW | 16.7 | 10.8 | 33.3WNW | 2040 | 0% | N/A | 1% | 65.3 | 0.000" |
 | 5:00am | 68.6 | 7.0 WSW | 13.0 | 6.0 | 37.0WNW | 2040 | 4% | N/A | 2% | 63.5 | 0.000" |
 | 6:00am | 68.0 | 7.5 SW | 17.9 | 10.4 | 37.5WNW | 1200 | 18% | N/A | 0% | 65.0 | 0.000" |
 | 7:00am | 67.4 | 5.6 SW | 13.6 | 8.0 | 36.3WNW | 1480 | 15% | N/A | 0% | 63.7 | 0.000" |
@@ -164,7 +162,7 @@
 
 | Day | Rating | Jump Hrs | Avg Surf | Max Gust | Avg Exit(~13.5k) | ClBase(ft) | Avg LowCl | Avg MidCl | Temp Range | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Tuesday Aug 11 | ⚠️ CAUTION | 8/15 | 6.7kt | 25.9kt | 27.2kt | 2190ft | 26% | 34% | 67.3–82.0° | 5.035" |
+| Tuesday Aug 11 | ⚠️ CAUTION | 8/15 | 6.8kt | 25.9kt | 27.1kt | 2198ft | 28% | 36% | 67.3–82.0° | 5.035" |
 | Wednesday Aug 12 | ✅ GO | 13/15 | 4.2kt | 13.1kt | 27.0kt | 1760ft | 13% | 11% | 66.3–78.6° | 0.097" |
 | Thursday Aug 13 | ✅ GO | 9/15 | 4.2kt | 12.8kt | 25.8kt | 2263ft | 1% | 1% | 64.7–81.4° | 0.095" |
 
@@ -172,7 +170,7 @@
 
 | Day | Rating | Jump Hrs | Avg Surf | Max Gust | Avg Exit(~13.5k) | ClBase(ft) | Avg LowCl | Avg MidCl | Temp Range | Precip |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Tuesday Aug 11 | ⚠️ CAUTION | 6/15 | 6.7kt | 25.9kt | 28.8kt | 2190ft | 21% | N/A | 67.3–82.0° | 5.035" |
+| Tuesday Aug 11 | ⚠️ CAUTION | 6/15 | 6.8kt | 25.9kt | 28.6kt | 2198ft | 22% | N/A | 67.3–82.0° | 5.035" |
 | Wednesday Aug 12 | ✅ GO | 13/15 | 4.2kt | 13.1kt | 29.7kt | 1760ft | 12% | N/A | 66.3–78.6° | 0.097" |
 | Thursday Aug 13 | ✅ GO | 9/15 | 4.2kt | 12.8kt | 27.2kt | 2263ft | 2% | N/A | 64.7–81.4° | 0.095" |
 
