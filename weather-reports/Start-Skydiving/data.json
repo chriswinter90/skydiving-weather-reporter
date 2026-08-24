@@ -1,47 +1,6 @@
 {
   "forecasts": [
     {
-      "generated_at": "2026-08-21T15:12:36.376211+00:00",
-      "dropzone": "Start-Skydiving",
-      "location": {
-        "lat": 39.529555,
-        "lon": -84.392816,
-        "name": "Start Skydiving, Middletown OH"
-      },
-      "models": [
-        {
-          "model_name": "ncep_gfs_seamless",
-          "display_name": "NOAA GFS",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "12:00pm-8:00pm",
-            "reasons": [
-              "31 hours rated GO",
-              "7 hours rated CAUTION",
-              "1 hour rated NO JUMP"
-            ]
-          },
-          "surface_count": 60,
-          "exit_winds_count": 60
-        },
-        {
-          "model_name": "ecmwf_ifs",
-          "display_name": "ECMWF",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "12:00pm-8:00pm",
-            "reasons": [
-              "27 hours rated GO",
-              "11 hours rated CAUTION",
-              "1 hour rated NO JUMP"
-            ]
-          },
-          "surface_count": 60,
-          "exit_winds_count": 60
-        }
-      ]
-    },
-    {
       "generated_at": "2026-08-21T21:14:41.345638+00:00",
       "dropzone": "Start-Skydiving",
       "location": {
@@ -469,6 +428,45 @@
           },
           "surface_count": 66,
           "exit_winds_count": 66
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-08-24T15:31:39.650224+00:00",
+      "dropzone": "Start-Skydiving",
+      "location": {
+        "lat": 39.529555,
+        "lon": -84.392816,
+        "name": "Start Skydiving, Middletown OH"
+      },
+      "models": [
+        {
+          "model_name": "ncep_gfs_seamless",
+          "display_name": "NOAA GFS",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "1:00pm-8:00pm",
+            "reasons": [
+              "38 hours rated GO",
+              "1 hour rated CAUTION"
+            ]
+          },
+          "surface_count": 60,
+          "exit_winds_count": 60
+        },
+        {
+          "model_name": "ecmwf_ifs",
+          "display_name": "ECMWF",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "2:00pm-8:00pm",
+            "reasons": [
+              "37 hours rated GO",
+              "2 hours rated CAUTION"
+            ]
+          },
+          "surface_count": 60,
+          "exit_winds_count": 60
         }
       ]
     }
