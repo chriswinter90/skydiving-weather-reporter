@@ -215,6 +215,47 @@
           "exit_winds_count": 52
         }
       ]
+    },
+    {
+      "generated_at": "2026-09-04T05:45:39.910365+00:00",
+      "dropzone": "Cleveland-Skydiving-Center",
+      "location": {
+        "lat": 41.352036,
+        "lon": -81.099411,
+        "name": "Cleveland Skydiving Center, Garrettsville OH"
+      },
+      "models": [
+        {
+          "model_name": "ncep_gfs_seamless",
+          "display_name": "NOAA GFS",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "6:00am-7:00pm",
+            "reasons": [
+              "24 hours rated GO",
+              "20 hours rated CAUTION",
+              "1 hour rated NO JUMP"
+            ]
+          },
+          "surface_count": 70,
+          "exit_winds_count": 70
+        },
+        {
+          "model_name": "ecmwf_ifs",
+          "display_name": "ECMWF",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "7:00am-7:00pm",
+            "reasons": [
+              "21 hours rated GO",
+              "23 hours rated CAUTION",
+              "1 hour rated NO JUMP"
+            ]
+          },
+          "surface_count": 70,
+          "exit_winds_count": 70
+        }
+      ]
     }
   ]
 }
