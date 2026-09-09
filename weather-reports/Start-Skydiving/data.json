@@ -1,31 +1,6 @@
 {
   "forecasts": [
     {
-      "generated_at": "2026-09-06T12:07:56.575938+00:00",
-      "dropzone": "Start-Skydiving",
-      "location": {
-        "lat": 39.529555,
-        "lon": -84.392816,
-        "name": "Start Skydiving, Middletown OH"
-      },
-      "models": [
-        {
-          "model_name": "ecmwf_ifs",
-          "display_name": "ECMWF",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "10:00am-8:00pm",
-            "reasons": [
-              "39 hours rated GO",
-              "3 hours rated CAUTION"
-            ]
-          },
-          "surface_count": 63,
-          "exit_winds_count": 63
-        }
-      ]
-    },
-    {
       "generated_at": "2026-09-06T18:10:30.619605+00:00",
       "dropzone": "Start-Skydiving",
       "location": {
@@ -456,6 +431,47 @@
           },
           "surface_count": 69,
           "exit_winds_count": 69
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-09T12:29:05.142330+00:00",
+      "dropzone": "Start-Skydiving",
+      "location": {
+        "lat": 39.529555,
+        "lon": -84.392816,
+        "name": "Start Skydiving, Middletown OH"
+      },
+      "models": [
+        {
+          "model_name": "ncep_gfs_seamless",
+          "display_name": "NOAA GFS",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "1:00pm-8:00pm",
+            "reasons": [
+              "32 hours rated GO",
+              "7 hours rated CAUTION",
+              "3 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 63,
+          "exit_winds_count": 63
+        },
+        {
+          "model_name": "ecmwf_ifs",
+          "display_name": "ECMWF",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "1:00pm-8:00pm",
+            "reasons": [
+              "31 hours rated GO",
+              "8 hours rated CAUTION",
+              "3 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 63,
+          "exit_winds_count": 63
         }
       ]
     }

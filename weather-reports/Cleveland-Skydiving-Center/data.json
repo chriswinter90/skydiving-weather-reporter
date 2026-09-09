@@ -1,44 +1,6 @@
 {
   "forecasts": [
     {
-      "generated_at": "2026-09-06T12:07:56.575938+00:00",
-      "dropzone": "Cleveland-Skydiving-Center",
-      "location": {
-        "lat": 41.352036,
-        "lon": -81.099411,
-        "name": "Cleveland Skydiving Center, Garrettsville OH"
-      },
-      "models": [
-        {
-          "model_name": "ncep_gfs_seamless",
-          "display_name": "NOAA GFS",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "9:00am-8:00pm",
-            "reasons": [
-              "41 hours rated GO",
-              "1 hour rated CAUTION"
-            ]
-          },
-          "surface_count": 63,
-          "exit_winds_count": 63
-        },
-        {
-          "model_name": "ecmwf_ifs",
-          "display_name": "ECMWF",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "9:00am-8:00pm",
-            "reasons": [
-              "42 hours rated GO"
-            ]
-          },
-          "surface_count": 63,
-          "exit_winds_count": 63
-        }
-      ]
-    },
-    {
       "generated_at": "2026-09-06T18:10:30.619605+00:00",
       "dropzone": "Cleveland-Skydiving-Center",
       "location": {
@@ -465,6 +427,32 @@
           },
           "surface_count": 69,
           "exit_winds_count": 69
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-09T12:29:05.142330+00:00",
+      "dropzone": "Cleveland-Skydiving-Center",
+      "location": {
+        "lat": 41.352036,
+        "lon": -81.099411,
+        "name": "Cleveland Skydiving Center, Garrettsville OH"
+      },
+      "models": [
+        {
+          "model_name": "ecmwf_ifs",
+          "display_name": "ECMWF",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "11:00am-8:00pm",
+            "reasons": [
+              "22 hours rated GO",
+              "19 hours rated CAUTION",
+              "1 hour rated NO JUMP"
+            ]
+          },
+          "surface_count": 63,
+          "exit_winds_count": 63
         }
       ]
     }
