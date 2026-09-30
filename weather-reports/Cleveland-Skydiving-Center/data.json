@@ -1,46 +1,6 @@
 {
   "forecasts": [
     {
-      "generated_at": "2026-09-27T13:49:16.030153+00:00",
-      "dropzone": "Cleveland-Skydiving-Center",
-      "location": {
-        "lat": 41.352036,
-        "lon": -81.099411,
-        "name": "Cleveland Skydiving Center, Garrettsville OH"
-      },
-      "models": [
-        {
-          "model_name": "ncep_gfs_seamless",
-          "display_name": "NOAA GFS",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "12:00pm-8:00pm",
-            "reasons": [
-              "25 hours rated GO",
-              "13 hours rated CAUTION",
-              "3 hours rated NO JUMP"
-            ]
-          },
-          "surface_count": 62,
-          "exit_winds_count": 62
-        },
-        {
-          "model_name": "ecmwf_ifs",
-          "display_name": "ECMWF",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "12:00pm-8:00pm",
-            "reasons": [
-              "32 hours rated GO",
-              "9 hours rated CAUTION"
-            ]
-          },
-          "surface_count": 62,
-          "exit_winds_count": 62
-        }
-      ]
-    },
-    {
       "generated_at": "2026-09-27T19:51:20.063866+00:00",
       "dropzone": "Cleveland-Skydiving-Center",
       "location": {
@@ -305,6 +265,32 @@
           },
           "surface_count": 66,
           "exit_winds_count": 66
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-09-30T15:05:47.152090+00:00",
+      "dropzone": "Cleveland-Skydiving-Center",
+      "location": {
+        "lat": 41.352036,
+        "lon": -81.099411,
+        "name": "Cleveland Skydiving Center, Garrettsville OH"
+      },
+      "models": [
+        {
+          "model_name": "ncep_gfs_seamless",
+          "display_name": "NOAA GFS",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "12:00pm-9:00am",
+            "reasons": [
+              "13 hours rated GO",
+              "14 hours rated CAUTION",
+              "12 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 60,
+          "exit_winds_count": 60
         }
       ]
     }
