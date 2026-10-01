@@ -1,87 +1,6 @@
 {
   "forecasts": [
     {
-      "generated_at": "2026-09-28T01:52:25.433724+00:00",
-      "dropzone": "Cleveland-Skydiving-Center",
-      "location": {
-        "lat": 41.352036,
-        "lon": -81.099411,
-        "name": "Cleveland Skydiving Center, Garrettsville OH"
-      },
-      "models": [
-        {
-          "model_name": "ncep_gfs_seamless",
-          "display_name": "NOAA GFS",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "6:00am-8:00pm",
-            "reasons": [
-              "20 hours rated GO",
-              "7 hours rated CAUTION",
-              "3 hours rated NO JUMP"
-            ]
-          },
-          "surface_count": 50,
-          "exit_winds_count": 50
-        },
-        {
-          "model_name": "ecmwf_ifs",
-          "display_name": "ECMWF",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "6:00am-8:00pm",
-            "reasons": [
-              "20 hours rated GO",
-              "9 hours rated CAUTION",
-              "1 hour rated NO JUMP"
-            ]
-          },
-          "surface_count": 50,
-          "exit_winds_count": 50
-        }
-      ]
-    },
-    {
-      "generated_at": "2026-09-28T07:53:31.894910+00:00",
-      "dropzone": "Cleveland-Skydiving-Center",
-      "location": {
-        "lat": 41.352036,
-        "lon": -81.099411,
-        "name": "Cleveland Skydiving Center, Garrettsville OH"
-      },
-      "models": [
-        {
-          "model_name": "ncep_gfs_seamless",
-          "display_name": "NOAA GFS",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "6:00am-8:00pm",
-            "reasons": [
-              "37 hours rated GO",
-              "5 hours rated CAUTION",
-              "3 hours rated NO JUMP"
-            ]
-          },
-          "surface_count": 68,
-          "exit_winds_count": 68
-        },
-        {
-          "model_name": "ecmwf_ifs",
-          "display_name": "ECMWF",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "6:00am-8:00pm",
-            "reasons": [
-              "35 hours rated GO",
-              "10 hours rated CAUTION"
-            ]
-          },
-          "surface_count": 68,
-          "exit_winds_count": 68
-        }
-      ]
-    },
-    {
       "generated_at": "2026-09-29T08:38:13.669771+00:00",
       "dropzone": "Cleveland-Skydiving-Center",
       "location": {
@@ -292,6 +211,47 @@
           },
           "surface_count": 54,
           "exit_winds_count": 54
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-10-01T15:25:38.840472+00:00",
+      "dropzone": "Cleveland-Skydiving-Center",
+      "location": {
+        "lat": 41.352036,
+        "lon": -81.099411,
+        "name": "Cleveland Skydiving Center, Garrettsville OH"
+      },
+      "models": [
+        {
+          "model_name": "ncep_gfs_seamless",
+          "display_name": "NOAA GFS",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "12:00pm-8:00pm",
+            "reasons": [
+              "24 hours rated GO",
+              "11 hours rated CAUTION",
+              "4 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 60,
+          "exit_winds_count": 60
+        },
+        {
+          "model_name": "ecmwf_ifs",
+          "display_name": "ECMWF",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "12:00pm-8:00pm",
+            "reasons": [
+              "22 hours rated GO",
+              "13 hours rated CAUTION",
+              "4 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 60,
+          "exit_winds_count": 60
         }
       ]
     }
