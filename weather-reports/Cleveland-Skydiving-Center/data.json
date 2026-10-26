@@ -1,43 +1,6 @@
 {
   "forecasts": [
     {
-      "generated_at": "2026-10-23T15:39:51.943198+00:00",
-      "dropzone": "Cleveland-Skydiving-Center",
-      "location": {
-        "lat": 41.352036,
-        "lon": -81.099411,
-        "name": "Cleveland Skydiving Center, Garrettsville OH"
-      },
-      "models": [
-        {
-          "model_name": "ncep_gfs_seamless",
-          "display_name": "NOAA GFS",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "12:00pm-8:00pm",
-            "reasons": [
-              "39 hours rated GO"
-            ]
-          },
-          "surface_count": 60,
-          "exit_winds_count": 60
-        },
-        {
-          "model_name": "ecmwf_ifs",
-          "display_name": "ECMWF",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "12:00pm-8:00pm",
-            "reasons": [
-              "39 hours rated GO"
-            ]
-          },
-          "surface_count": 60,
-          "exit_winds_count": 60
-        }
-      ]
-    },
-    {
       "generated_at": "2026-10-23T21:41:07.334752+00:00",
       "dropzone": "Cleveland-Skydiving-Center",
       "location": {
@@ -449,6 +412,43 @@
           },
           "surface_count": 66,
           "exit_winds_count": 66
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-10-26T16:01:02.497151+00:00",
+      "dropzone": "Cleveland-Skydiving-Center",
+      "location": {
+        "lat": 41.352036,
+        "lon": -81.099411,
+        "name": "Cleveland Skydiving Center, Garrettsville OH"
+      },
+      "models": [
+        {
+          "model_name": "ncep_gfs_seamless",
+          "display_name": "NOAA GFS",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "1:00pm-8:00pm",
+            "reasons": [
+              "38 hours rated GO"
+            ]
+          },
+          "surface_count": 59,
+          "exit_winds_count": 59
+        },
+        {
+          "model_name": "ecmwf_ifs",
+          "display_name": "ECMWF",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "1:00pm-8:00pm",
+            "reasons": [
+              "38 hours rated GO"
+            ]
+          },
+          "surface_count": 59,
+          "exit_winds_count": 59
         }
       ]
     }
