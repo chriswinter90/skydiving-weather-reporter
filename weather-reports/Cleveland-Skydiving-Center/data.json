@@ -1,45 +1,6 @@
 {
   "forecasts": [
     {
-      "generated_at": "2026-10-29T16:42:23.820106+00:00",
-      "dropzone": "Cleveland-Skydiving-Center",
-      "location": {
-        "lat": 41.352036,
-        "lon": -81.099411,
-        "name": "Cleveland Skydiving Center, Garrettsville OH"
-      },
-      "models": [
-        {
-          "model_name": "ncep_gfs_seamless",
-          "display_name": "NOAA GFS",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "1:00pm-8:00pm",
-            "reasons": [
-              "21 hours rated GO",
-              "17 hours rated CAUTION"
-            ]
-          },
-          "surface_count": 59,
-          "exit_winds_count": 59
-        },
-        {
-          "model_name": "ecmwf_ifs",
-          "display_name": "ECMWF",
-          "verdict": {
-            "rating": "GO",
-            "best_window": "1:00pm-8:00pm",
-            "reasons": [
-              "20 hours rated GO",
-              "18 hours rated CAUTION"
-            ]
-          },
-          "surface_count": 59,
-          "exit_winds_count": 59
-        }
-      ]
-    },
-    {
       "generated_at": "2026-10-29T22:44:41.275611+00:00",
       "dropzone": "Cleveland-Skydiving-Center",
       "location": {
@@ -433,6 +394,47 @@
           },
           "surface_count": 65,
           "exit_winds_count": 65
+        }
+      ]
+    },
+    {
+      "generated_at": "2026-11-01T17:15:38.828138+00:00",
+      "dropzone": "Cleveland-Skydiving-Center",
+      "location": {
+        "lat": 41.352036,
+        "lon": -81.099411,
+        "name": "Cleveland Skydiving Center, Garrettsville OH"
+      },
+      "models": [
+        {
+          "model_name": "ncep_gfs_seamless",
+          "display_name": "NOAA GFS",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "1:00pm-4:00pm",
+            "reasons": [
+              "24 hours rated GO",
+              "10 hours rated CAUTION",
+              "4 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 59,
+          "exit_winds_count": 59
+        },
+        {
+          "model_name": "ecmwf_ifs",
+          "display_name": "ECMWF",
+          "verdict": {
+            "rating": "GO",
+            "best_window": "1:00pm-4:00pm",
+            "reasons": [
+              "25 hours rated GO",
+              "9 hours rated CAUTION",
+              "4 hours rated NO JUMP"
+            ]
+          },
+          "surface_count": 59,
+          "exit_winds_count": 59
         }
       ]
     }
